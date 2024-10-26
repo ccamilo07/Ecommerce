@@ -1,0 +1,191 @@
+body {
+    /* background-image: url("C:/Users/Camilo/Documents/SENA/Pagina/Prototipado/Logo 2d-Moon.png");*/
+    background-color: #C4BEBB;
+ }
+
+ /* Barra de navegacion*/
+nav a {
+    float: right;
+    margin: 0px;
+    border: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;  
+    text-decoration: none;
+    font-size: 18px;  
+    font-family: sans-serif;
+}
+nav a:hover{
+    background-color: #242833;
+    color: #FF6600;
+}
+nav input{
+    width: 300px;  
+    margin-left: auto;  
+    margin-right: auto;
+    padding: 4px;  
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242833;
+}
+nav li {
+    display: inline;
+   
+}
+
+h1 {
+    text-align: center;
+}
+hr{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 2px 16px;
+}
+
+ /* Cards */
+.card {
+    /* Add shadows to create the "card" effect */
+    padding: 10px;  /* Aumenté el padding */
+    text-align: center;  /* Centré el contenido */
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+ 
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Añade un efecto de zoom al pasar el ratón */
+.card img:hover {
+    transform: scale(1.05);  
+    transition: transform 0.3s ease;
+}   
+
+/*Boton Comprar*/
+.BotonC{
+    a{
+        margin-left: 600px;
+        margin-right: 150px;
+        font-family: sans-serif;
+    }
+    a:hover {
+        background-color: #ff3300;  /* Color de fondo al pasar el ratón */
+    }
+   
+}
+
+.BotonC a {
+    font-size: 20px;  /* Aumenté el tamaño de la fuente */
+    padding: 15px 30px;  /* Hice el botón más grande */
+    background-color: #FF8552;  /* Cambié el color de fondo */
+    color: #E5E5E5;
+    text-transform: uppercase;  /* Puse el texto en mayúsculas */
+    transition: background-color 0.3s ease;
+}
+/*Newsletter*/
+.News {
+    padding: 15px 20px;
+    border-color: #242833;
+    border-style: solid ;
+    border-radius: 12px;
+    border-width: 2px;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 40px auto;   
+}
+
+/*Carrusel */
+.carousel{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.carousel-item {
+    padding: 0 10px;  /* Añadir espacio entre las imágenes */
+}
+
+.carousel-inner .col {
+    max-width: 200px;  /* Ajustar el ancho de las imágenes */
+}
+
+.carousel-item img {
+    height: 200px;  /* Reducir la altura de las imágenes */
+    transition: transform 0.3s ease-in-out;  /* Transición suave */
+    object-fit: cover;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;  /* Ajusta el ancho del área de clic del botón */
+}
+
+.carousel-control-prev {
+    left: -60px;  /* Mueve el botón hacia la izquierda fuera del carrusel */
+}
+
+.carousel-control-next {
+    right: 20px;  /* Mueve el botón hacia la derecha fuera del carrusel */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);  /* Añadir fondo oscuro semitransparente a los íconos */
+    border-radius: 50%;  /* Hacer los íconos circulares */
+}
+
+.carousel-item:hover img {
+    transform: scale(1.1);  /* Efecto de zoom al hacer hover */
+}
+.carousel-item {
+    transition: transform 0.5s ease-in-out;  /* Añade transiciones suaves */
+}
+
+/*Footer*/
+.footer {
+    background-color: #242833;  /* Fondo oscuro acorde a tu paleta */
+    color: #DDD0C8;  /* Texto beige claro */
+}
+
+.footer h5 {
+    color: #FF6600;  /* Color de acento naranja */
+    font-weight: bold;
+}
+
+.footer a {
+    color: #f1f1f1;  /* Texto claro para los enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #FF6600;  /* Cambia a naranja en hover */
+}
+
+.footer i {
+    font-size: 24px;
+    color: #f1f1f1;  /* Íconos de redes sociales en color claro */
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer i:hover {
+    color: #FF6600;  /* Íconos se vuelven naranja al hacer hover */
+}
+
+.footer .text-center p {
+    color: #DDD0C8;  /* Texto en color beige claro */
+}
+

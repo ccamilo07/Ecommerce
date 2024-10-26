@@ -1,0 +1,148 @@
+body {
+    /* background-image: url("C:/Users/Camilo/Documents/SENA/Pagina/Prototipado/Logo 2d-Moon.png");*/
+    background-color: #C4BEBB;
+  }
+ /* Barra de navegacion*/
+ nav a {
+    float: right;
+    margin: 0px;
+    border: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;  
+    text-decoration: none;
+    font-size: 18px;  
+    font-family: sans-serif;
+}
+nav a:hover{
+    background-color: #242833;
+    color: #FF6600;
+}
+nav input{
+    width: 300px;  
+    margin-left: auto;  
+    margin-right: auto;
+    padding: 4px;  
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242833;
+}
+nav li {
+    display: inline;
+   
+}
+
+.product-container {
+    display: flex;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.thumbnail:hover {
+    border-color: #333;
+}
+
+.product-image img {
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.product-details {
+    margin-left: 40px;
+    max-width: 600px;
+}
+
+.product-details h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e63946;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.add-to-cart {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #333;
+}
+
+.image-gallery:hover img {
+    transform: scale(1.05);
+}
+.product-image:hover img {
+    transform: scale(1.05);
+}
+
+/*Footer*/
+.footer {
+    background-color: #242833;  /* Fondo oscuro acorde a tu paleta */
+    color: #DDD0C8;  /* Texto beige claro */
+}
+
+.footer h5 {
+    color: #FF6600;  /* Color de acento naranja */
+    font-weight: bold;
+}
+
+.footer a {
+    color: #f1f1f1;  /* Texto claro para los enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #FF6600;  /* Cambia a naranja en hover */
+}
+
+.footer i {
+    font-size: 24px;
+    color: #f1f1f1;  /* Íconos de redes sociales en color claro */
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer i:hover {
+    color: #FF6600;  /* Íconos se vuelven naranja al hacer hover */
+}
+
+.footer .text-center p {
+    color: #DDD0C8;  /* Texto en color beige claro */
+}

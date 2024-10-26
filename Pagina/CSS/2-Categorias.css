@@ -1,0 +1,135 @@
+body {
+    /* background-image: url("C:/Users/Camilo/Documents/SENA/Pagina/Prototipado/Logo 2d-Moon.png");*/
+    background-color: #C4BEBB;
+ }
+
+ @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+ 
+/* Barra de navegacion*/
+nav a {
+    float: right;
+    margin: 0px;
+    border: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;  
+    text-decoration: none;
+    font-size: 18px;  
+    font-family: sans-serif;
+}
+nav a:hover{
+    background-color: #242833;
+    color: #FF6600;
+}
+nav input{
+    width: 300px;  
+    margin-left: auto;  
+    margin-right: auto;
+    padding: 4px;  
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242833;
+}
+nav li {
+    display: inline;
+   
+}
+
+h1 {
+    text-align: center;
+}
+hr{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+.card-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.card-text {
+    font-size: 16px;
+    color: #333;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.card img {
+    width: 100%;  /* Ocupa todo el espacio de la tarjeta */
+    object-fit: cover;  /* Evita distorsiones */
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover img {
+    transform: scale(1.05);
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);  /* Sombra al pasar el ratón */
+}
+.card h5 {
+    text-align: center;
+}
+
+
+/*Footer*/
+.footer {
+    background-color: #242833;  /* Fondo oscuro acorde a tu paleta */
+    color: #DDD0C8;  /* Texto beige claro */
+}
+
+.footer h5 {
+    color: #FF6600;  /* Color de acento naranja */
+    font-weight: bold;
+}
+
+.footer a {
+    color: #f1f1f1;  /* Texto claro para los enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #FF6600;  /* Cambia a naranja en hover */
+}
+
+.footer i {
+    font-size: 24px;
+    color: #f1f1f1;  /* Íconos de redes sociales en color claro */
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer i:hover {
+    color: #FF6600;  /* Íconos se vuelven naranja al hacer hover */
+}
+
+.footer .text-center p {
+    color: #DDD0C8;  /* Texto en color beige claro */
+}

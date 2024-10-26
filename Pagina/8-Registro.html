@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-comptible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>2D'Moon</title>
+    <link rel="icon" type="image/x-icon" href="Prototipado/ovniSinFondo.png">
+    <link rel="stylesheet" href="CSS/8-Registro.css"/>
+            
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li> 
+              <img src="Prototipado/ovniSinFondo.png" style="width:60px; padding:4px;" >
+            </li>
+            <li> 
+                <input type="search" placeholder="Buscar..">
+            </li>
+            <li>
+              <a href="7-Login.html">
+                <img src="Prototipado/usuario.png" >
+              </a>
+            </li>
+            <li> 
+              <a href="4-Carrito.html">
+                <img src="Prototipado/carrito-de-compras.png" style="width: 20px;">
+              </a>
+            </li>
+            <li>
+              <a href="5-Ayuda.html" target="_blank">Ayuda</a>
+            </li>
+            <li>
+              <a href="2-Categorias.html">Categorias</a>
+            </li>
+            <li>
+              <a href="6-Contactenos.html" target="_blank">Contactenos</a>
+            </li>
+            <li>
+              <a href="1-Index.html">Inicio</a>
+            </li>
+        </ul>
+    </nav> 
+  </header>
+  <h3>Introduce tus datos para registrarte e iniciar sesión.</h3>
+  <div class="mb-3">
+    <form id="registro">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Nombre" required></br>
+        <label for="apellido" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="apellido" placeholder="Apellido" required></br>
+        <label for="fecha" class="form-label">Fecha de nacimiento</label>
+        <input type="date" class="form-control" id="fecha" required></br>
+        <label for="pais" class="form-label">País</label>
+        <input type="text" class="form-control" id="pais" placeholder="País" required></br>
+        <label for="ciudad" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="ciudad" placeholder="Ciudad" required></br>
+        <label for="correo" class="form-label">Correo electronico</label>
+        <input type="email" class="form-control" id="correo" placeholder="Correo electronico" required></br>
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="password" placeholder="Contraseña" required></br>
+        <label for="ConPassword" class="form-label">Confirmar contraseña</label>
+        <input type="password" class="form-control" id="ConPassword" placeholder="Contraseña" required>
+        <br/>
+        <input type="checkbox" class="form-check-input" id="check" required>
+        <label class="form-check-label" for="check">Acepta terminos y condiciones</label>
+        <br/>
+        <br/>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+
+<br/>
+<br/>
+<div class="footer bg-dark text-white">
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-md-3">
+        <h5>Compañía</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Carreras</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Inversores</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Ayuda</h5>
+        <ul class="list-unstyled">
+          <li><a href="5-Ayuda.html">Centro de ayuda</a></li>
+          <li><a href="#">Términos</a></li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="6-Contactenos.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Explorar</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Novedades</a></li>
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="2-Categorias.html">Tienda</a></li>
+          <li><a href="#">Eventos</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Síguenos</h5>
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center mt-3">
+        <p class="small">&copy; 2024 2D'Moon, Inc. Todos los derechos reservados.</p>
+        <p class="small">Cristian Camilo Contreras Mejia  2834880</p>
+      </div>
+    </div>
+  </footer>
+</div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="registro.js"></script>
+</body>
+</html>
